@@ -1,6 +1,16 @@
 # 📒 Documentação do Projeto
 
+Durante o ByteLab, desenvolvi projetos indo de bibliotecas comuns e avançadas do Python, como GoogleAiAPI e Django, até o desenvolvimento de apps com React Native. Participar deste curso de férias foi uma oportunidade excelente para conhecer mais sobre estas tecnologias de extrema importância, realizar networkings e desenvolver novas habilidades. Tive a oportunidade de presenciar três workhops, sendo eles:
 
+<br>
+
+`🐍 Introdução ao Django: Construindo Aplicação Web` — Neste workshop tive a oportunidade de conhecer mais sobre o principal framework de aplicações python, o Django, e como utilizar deste framework para aplicações web, utilizados por empresas grandes como Spotify, Instagram, e até a própria CESAR.
+
+`🤖 Implementando IA no seu projeto: Um Guia Rápido` — Puxando a corda do Python, desenvolvemos uma aplicação utilizando da API do Google para integração do Gemini com aplicações Python, recriado no console um chatGPT.
+
+`📱 Desenvolva seu primeiro aplicativo com React Native` — Saindo um pouco da programação desktop, participei de um workshop introdutório na programação mobile, no qual tivemos o simples objetivo de criar um app de listas de afazeres, uma to-do list.
+
+<br>
 
 - Python
 - Django
@@ -29,9 +39,20 @@ Feito com ❤️ por Victor Barbosa 👋🏽 Entre em contato!
 <br>
 <br>
 
-## 🔗 Projetos desenvolvidos
+# 🔗 Projetos desenvolvidos
 ---
 
+Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
+
 <br>
+
+## 🐍 To-Do List Django
+
+Durante este workshop, desenvolvemos um simples site de listas de tarefas, um "to-do list", utilizando de Django, o principal framework para Python atualmente. Percorremos uma trilha simples e linear, indo desde a inicialização de uma venv (ambiente virtual), até a criação de uma conta admin no site para atualização das listas manualmente. Abaixo está um passo a passo de como instalar o projeto e rodar:
+
+---
+### Requisitos: 
+- Python 3.11+
+- Django
 
 
