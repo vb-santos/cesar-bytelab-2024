@@ -46,56 +46,66 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
 
 <br>
 
-## 🐍 To-Do List Django
+<details>
+  <summary><h2>🐍 To-Do List Django</h2></summary>
+  
+  Durante este workshop, desenvolvemos um simples site de listas de tarefas, um "to-do list", utilizando de Django, o principal framework para Python atualmente. Percorremos uma trilha simples e linear, indo desde a inicialização de uma venv (ambiente virtual), até a criação de uma conta admin no site para atualização das listas manualmente. Abaixo está um passo a passo de como instalar o projeto e rodar:
+  
+  ---
+  ### Requisitos: 
+  - Python 3.11+
+  - Django 5.1
+  
+  ---
+  ### Passo a passo:
+  1. Instalar o projeto dentro da pasta [Workshop - Django](https://github.com/victorb-s/CESAR-ByteLab-2024/tree/7d246a96cd7e9223b1670227b9728f35d2171589/Workshop%20-%20Django).
+  2. Inicie o ambiente virtual utilizando o seguinte comando no prompt "CMD"
+  
+  - No Windows:
+  ```bash
+  .\Django\Scripts\activate
+  ```
+  - No MacOS/Linux:
+  ```bash
+  source Django\bin\activate
+  ```
+  <br>
+  
+  3. Caso o pip não esteja instalado, utilize o seguinte comando
+  
+  - No windows:
+  ```bash
+  py -m ensurepip --default-pip
+  ```
+  - No MacOS/Linux:
+  ```bash
+  python3 -m ensurepip --default-pip
+  ```
+  <br>
+  
+  4. Entre na página "projetinho" com o comando `cd projetinho` e instale os requisitos, abra o terminal e digite:
+  ```
+  pip install -r requirements.txt
+  ```
+  5. Após instalar, inicialize o projeto utilizando
+  ```
+  python manage.py runserver
+  ```
+  6. Acesse o projeto utilizando este link no navegador `http://127.0.0.1:8000`
+  7. Caso queira adicionar alguma tarefa, utilize o link `http://127.0.0.1:8000/admin/` com a seguinte conta: <br>
+  `Usuário:` admin <br>
+  `Senha:` admin123 <br>
+  
+  <br>
+  
+  8. Para finalizar o projeto, abra o terminal e pressione CTRL + C
+  9. Para finalizar o ambiente virtual digite simplesmente `deactivate` no terminal. Caso não funcione, volte para o diretório original utilizando `cd ..` e digite `.\Django\Scripts\deactivate`
+</details>
 
-Durante este workshop, desenvolvemos um simples site de listas de tarefas, um "to-do list", utilizando de Django, o principal framework para Python atualmente. Percorremos uma trilha simples e linear, indo desde a inicialização de uma venv (ambiente virtual), até a criação de uma conta admin no site para atualização das listas manualmente. Abaixo está um passo a passo de como instalar o projeto e rodar:
+<details>
+  <summary><h2>🤖 GoogleAiAPI com Python e Gemini</h2></summary>
+</details>
 
----
-### Requisitos: 
-- Python 3.11+
-- Django 5.1
-
----
-### Passo a passo:
-1. Instalar o projeto dentro da pasta [Workshop - Django](https://github.com/victorb-s/CESAR-ByteLab-2024/tree/7d246a96cd7e9223b1670227b9728f35d2171589/Workshop%20-%20Django).
-2. Inicie o ambiente virtual utilizando o seguinte comando no prompt "CMD"
-
-- No Windows:
-```bash
-.\Django\Scripts\activate
-```
-- No MacOS/Linux:
-```bash
-source Django\bin\activate
-```
-<br>
-
-3. Caso o pip não esteja instalado, utilize o seguinte comando
-
-- No windows:
-```bash
-py -m ensurepip --default-pip
-```
-- No MacOS/Linux:
-```bash
-python3 -m ensurepip --default-pip
-```
-<br>
-
-4. Entre na página "projetinho" com o comando `cd projetinho` e instale os requisitos, abra o terminal e digite:
-```
-pip install -r requirements.txt
-```
-5. Após instalar, inicialize o projeto utilizando
-```
-python manage.py runserver
-```
-6. Acesse o projeto utilizando este link no navegador `http://127.0.0.1:8000`
-7. Caso queira adicionar alguma tarefa, utilize o link `http://127.0.0.1:8000/admin/` com a seguinte conta: <br>
-`Usuário:` admin <br>
-`Senha:` admin123 <br>
-
-<br>
-
-8. Para finalizar o projeto, abra o terminal e pressione CTRL + C
-9. Para finalizar o ambiente virtual digite simplesmente `deactivate` no terminal. Caso não funcione, volte para o diretório original utilizando `cd ..` e digite `.\Django\Scripts\deactivate`
+<details>
+  <summary><h2>📱 App To-Do List com React Native</h2></summary>
+</details>
