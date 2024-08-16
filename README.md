@@ -53,6 +53,7 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
   
   ---
   ### Requisitos: 
+  - [Visual Studio Code](https://code.visualstudio.com/download)
   - Python 3.11+
   - Pip 21+
   - Django 5.1
@@ -110,6 +111,7 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
 
   ---
   ### Requisitos: 
+  - [Visual Studio Code](https://code.visualstudio.com/download)
   - Python 3.11+
   - Pip 21+
   - GoogleAiApi v1
@@ -154,4 +156,43 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
 
 <details>
   <summary><h2>📱 App To-Do List com React Native</h2></summary>
+  No workshop focado em desenvolvimento mobile, tivemos uma leve experiência de criação de um simples app To-do, através da plataforma Expo Go. Trabalhamos com estilização em react, utilização do react native para programar a tela, entre outros.
+
+  ---
+  ### Requisitos: 
+  - [Visual Studio Code](https://code.visualstudio.com/download)
+  - Expo Go (App Mobile)
+  
+  ---
+  ### Passo a passo:
+  # Welcome to your Expo app 👋
+
+  This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+  
+  ## Get started
+  
+  1. Instale as dependências
+  
+     ```bash
+     npm install
+     ```
+  
+  2. Inicialize o app
+  
+     ```bash
+      npx expo start
+     ```
+  
+  No console, você encontrará as seguintes opções para rodar o app:
+  
+  - [Desenvolvedor](https://docs.expo.dev/develop/development-builds/introduction/)
+  - [Emulador Android](https://docs.expo.dev/workflow/android-studio-emulator/)
+  - [Emulador IOs](https://docs.expo.dev/workflow/ios-simulator/)
+  - [Expo Go](https://expo.dev/go), um ambiente limitado para testar o desenvolvimento do app com o Expo
+  
+  ## Tutoriais do Expo
+
+  - [Documentação do Expo](https://docs.expo.dev/): Aprender os fundamentos ou entrar em tópicos avançados com o [guia](https://docs.expo.dev/guides).
+  - [Tutorial para aprender Expo](https://docs.expo.dev/tutorial/introduction/)
+
 </details>
