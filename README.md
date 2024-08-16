@@ -54,6 +54,7 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
   ---
   ### Requisitos: 
   - Python 3.11+
+  - Pip 21+
   - Django 5.1
   
   ---
@@ -104,6 +105,49 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
 
 <details>
   <summary><h2>🤖 GoogleAiAPI com Python e Gemini</h2></summary>
+
+  Durante este workshop, tivemos uma leve experiência do que seria criar seu próprio GPT, um chatBot funcional que roda no seu próprio computador local, através de Python. Tive a oportunidade de conhecer mais sobre APIs, desenvolvimento com elas e integração de chatBots em projetos reais.
+
+  ---
+  ### Requisitos: 
+  - Python 3.11+
+  - Pip 21+
+  - GoogleAiApi v1
+  
+  ---
+  ### Passo a passo:
+  1. Instalar o projeto dentro da pasta [Workshop -GoogleAiAPI](https://github.com/victorb-s/CESAR-ByteLab-2024/tree/87e411613ad1bc53ccb5b170b15f5cc0c3a3017d/Workshop%20-%20GoogleAiAPI).
+  2. Inicie o ambiente virtual utilizando o seguinte comando no prompt "CMD"
+  
+  - No Windows:
+  ```bash
+  .\venv\Scripts\activate
+  ```
+  - No MacOS/Linux:
+  ```bash
+  source venv\bin\activate
+  ```
+  <br>
+  
+  3. Caso o pip não esteja instalado, utilize o seguinte comando
+  
+  - No windows:
+  ```bash
+  py -m ensurepip --default-pip
+  ```
+  - No MacOS/Linux:
+  ```bash
+  python3 -m ensurepip --default-pip
+  ```
+
+  4. Você precisará entrar no site [Google AI Studio](https://aistudio.google.com/), obs: *Entre com um email pessoal, não institucional*
+  ![Captura de tela 2024-08-16 173413](https://github.com/user-attachments/assets/707c3b70-0493-4819-a405-cf198b9694b5)
+
+  <br>
+  6. Gere uma nova chave, selecionando "Criar chave de API" -> "Criar uma chave de API em um novo projeto"
+  7. Copie a chave e guarde em algum lugar, você precisará dela para acessar o chat
+  8. No arquivo ".env", altere a variável "suaChave" para a chave que você copiou no AI Studio
+  9. Execute o código em "chat.py" e utilize de seu próprio Gemini!
 </details>
 
 <details>
