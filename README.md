@@ -165,11 +165,6 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
   
   ---
   ### Passo a passo:
-  # Welcome to your Expo app 👋
-
-  This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-  
-  ## Get started
   
   1. Instale as dependências
   
