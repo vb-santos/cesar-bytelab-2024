@@ -144,10 +144,10 @@ Abaixo segue descrição dos projetos desenvolvidos durante os workshops.
   ![Captura de tela 2024-08-16 173413](https://github.com/user-attachments/assets/707c3b70-0493-4819-a405-cf198b9694b5)
 
   <br>
-  6. Gere uma nova chave, selecionando "Criar chave de API" -> "Criar uma chave de API em um novo projeto"
-  7. Copie a chave e guarde em algum lugar, você precisará dela para acessar o chat
-  8. No arquivo ".env", altere a variável "suaChave" para a chave que você copiou no AI Studio
-  9. Execute o código em "chat.py" e utilize de seu próprio Gemini!
+  6. Gere uma nova chave, selecionando "Criar chave de API" -> "Criar uma chave de API em um novo projeto" <br>
+  7. Copie a chave e guarde em algum lugar, você precisará dela para acessar o chat <br>
+  8. No arquivo ".env", altere a variável "suaChave" para a chave que você copiou no AI Studio <br>
+  9. Execute o código em "chat.py" e utilize de seu próprio Gemini! 
 </details>
 
 <details>
